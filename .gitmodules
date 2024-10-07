@@ -1,0 +1,3 @@
+[submodule "lib/cu-osc-diamond-template"]
+	path = lib/cu-osc-diamond-template
+	url = https://github.com/Laguna-Games/cu-osc-diamond-template
