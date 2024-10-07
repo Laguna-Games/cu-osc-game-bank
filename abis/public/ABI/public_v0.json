@@ -1,0 +1,3450 @@
+[
+    {
+        "type": "function",
+        "name": "allowAddressToMintDarkMarks",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x1302f72b"
+    },
+    {
+        "type": "function",
+        "name": "burnDarkMarksFrom",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xca2e3fc0"
+    },
+    {
+        "type": "function",
+        "name": "denyAddressToMintDarkMarks",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xce11c8b6"
+    },
+    {
+        "type": "function",
+        "name": "getAddressesPermittedToMintDarkMarks",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address[]",
+                "internalType": "address[]"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x2fb16a66"
+    },
+    {
+        "type": "function",
+        "name": "getDarkMarksOperationsForAddress",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "minted",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "burned",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x1aa80210"
+    },
+    {
+        "type": "function",
+        "name": "mintDarkMarks",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x7b04e69f"
+    },
+    {
+        "type": "function",
+        "name": "onERC1155BatchReceived",
+        "inputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes4",
+                "internalType": "bytes4"
+            }
+        ],
+        "stateMutability": "pure",
+        "selector": "0xbc197c81"
+    },
+    {
+        "type": "function",
+        "name": "onERC1155Received",
+        "inputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes4",
+                "internalType": "bytes4"
+            }
+        ],
+        "stateMutability": "pure",
+        "selector": "0xf23a6e61"
+    },
+    {
+        "type": "function",
+        "name": "allowAddressToMintUNIM",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x099539e1"
+    },
+    {
+        "type": "function",
+        "name": "burnUNIMFrom",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x5277a76d"
+    },
+    {
+        "type": "function",
+        "name": "denyAddressToMintUNIM",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xf8bb2e1c"
+    },
+    {
+        "type": "function",
+        "name": "getAddressesPermittedToMintUNIM",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address[]",
+                "internalType": "address[]"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xbf45c398"
+    },
+    {
+        "type": "function",
+        "name": "getUNIMOperationsForAddress",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "minted",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "burned",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xc82a45be"
+    },
+    {
+        "type": "function",
+        "name": "mintUNIM",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xaf41bf7f"
+    },
+    {
+        "type": "function",
+        "name": "UnlockKeystoneFromGameGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xb2401017"
+    },
+    {
+        "type": "function",
+        "name": "UnlockKeystoneFromGameWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x37e28cd7"
+    },
+    {
+        "type": "function",
+        "name": "keystonePoolIsValid",
+        "inputs": [
+            {
+                "name": "pool",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x13dfba77"
+    },
+    {
+        "type": "function",
+        "name": "setKeystonePoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x0deb3410"
+    },
+    {
+        "type": "function",
+        "name": "unsetKeystonePoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xcb8a8a25"
+    },
+    {
+        "type": "function",
+        "name": "burnFrom",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x79cc6790"
+    },
+    {
+        "type": "function",
+        "name": "mint",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x40c10f19"
+    },
+    {
+        "type": "function",
+        "name": "SUPPORTS_INTERFACE_STORAGE_POSITION",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x3a53ff49"
+    },
+    {
+        "type": "function",
+        "name": "StashLootBoxGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xd462c396"
+    },
+    {
+        "type": "function",
+        "name": "StashLootBoxWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x77f57d50"
+    },
+    {
+        "type": "function",
+        "name": "isLootboxValid",
+        "inputs": [
+            {
+                "name": "pool",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x137e8563"
+    },
+    {
+        "type": "function",
+        "name": "setLootboxIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x10a3f931"
+    },
+    {
+        "type": "function",
+        "name": "unsetLootboxIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x7aaf17f5"
+    },
+    {
+        "type": "function",
+        "name": "batchUnstashUNIMAndRBW",
+        "inputs": [
+            {
+                "name": "owners",
+                "type": "address[]",
+                "internalType": "address[]"
+            },
+            {
+                "name": "amountsUNIM",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "amountsRBW",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xb4f80138"
+    },
+    {
+        "type": "function",
+        "name": "stashRBW",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x51782474"
+    },
+    {
+        "type": "function",
+        "name": "stashRBW",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x5e351737"
+    },
+    {
+        "type": "function",
+        "name": "stashUNIM",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x9dafc880"
+    },
+    {
+        "type": "function",
+        "name": "stashUNIM",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xeae2ea7e"
+    },
+    {
+        "type": "function",
+        "name": "stashUNIMAndRBW",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amountUNIM",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amountRBW",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x65c38bb8"
+    },
+    {
+        "type": "function",
+        "name": "stashUNIMAndRBW",
+        "inputs": [
+            {
+                "name": "amountUNIM",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amountRBW",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x902ead61"
+    },
+    {
+        "type": "function",
+        "name": "unstashRBWGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xab983f8a"
+    },
+    {
+        "type": "function",
+        "name": "unstashRBWWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x4b4a0bdf"
+    },
+    {
+        "type": "function",
+        "name": "unstashRBWWithSignature",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xdd86381e"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMAndRBWGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amountUNIM",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amountRBW",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xd831040c"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMAndRBWWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amountUNIM",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amountRBW",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xa3105f63"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMAndRBWWithSignature",
+        "inputs": [
+            {
+                "name": "amountUNIM",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amountRBW",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xdd7944f5"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x313d6336"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMWithSignature",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x1521465b"
+    },
+    {
+        "type": "function",
+        "name": "unstashUNIMWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x27b8e40c"
+    },
+    {
+        "type": "function",
+        "name": "approveForPool",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "operator",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x85bc82e2"
+    },
+    {
+        "type": "function",
+        "name": "balanceOf",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "id",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x00fdd58e"
+    },
+    {
+        "type": "function",
+        "name": "balanceOfBatch",
+        "inputs": [
+            {
+                "name": "accounts",
+                "type": "address[]",
+                "internalType": "address[]"
+            },
+            {
+                "name": "ids",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x4e1273f4"
+    },
+    {
+        "type": "function",
+        "name": "burn",
+        "inputs": [
+            {
+                "name": "from",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xf5298aca"
+    },
+    {
+        "type": "function",
+        "name": "contractURI",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "string",
+                "internalType": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xe8a3d485"
+    },
+    {
+        "type": "function",
+        "name": "createPoolV1",
+        "inputs": [
+            {
+                "name": "_capacity",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "_transferable",
+                "type": "bool",
+                "internalType": "bool"
+            },
+            {
+                "name": "_burnable",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "selector": "0x3bad2d82"
+    },
+    {
+        "type": "function",
+        "name": "createSimplePool",
+        "inputs": [
+            {
+                "name": "_capacity",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "selector": "0xb507ef52"
+    },
+    {
+        "type": "function",
+        "name": "isApprovedForAll",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "operator",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xe985e9c5"
+    },
+    {
+        "type": "function",
+        "name": "isApprovedForPool",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "operator",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x027b3fc2"
+    },
+    {
+        "type": "function",
+        "name": "mint",
+        "inputs": [
+            {
+                "name": "to",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x731133e9"
+    },
+    {
+        "type": "function",
+        "name": "mintBatch",
+        "inputs": [
+            {
+                "name": "to",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolIDs",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "amounts",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x1f7fdffa"
+    },
+    {
+        "type": "function",
+        "name": "paymentToken",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x3013ce29"
+    },
+    {
+        "type": "function",
+        "name": "poolBasePrice",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x8925d013"
+    },
+    {
+        "type": "function",
+        "name": "poolIsBurnable",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x3c50a3c5"
+    },
+    {
+        "type": "function",
+        "name": "poolIsTransferable",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x69453ce9"
+    },
+    {
+        "type": "function",
+        "name": "poolMintBatch",
+        "inputs": [
+            {
+                "name": "id",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "toAddresses",
+                "type": "address[]",
+                "internalType": "address[]"
+            },
+            {
+                "name": "amounts",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x21adca96"
+    },
+    {
+        "type": "function",
+        "name": "safeBatchTransferFrom",
+        "inputs": [
+            {
+                "name": "from",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "to",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "ids",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "amounts",
+                "type": "uint256[]",
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x2eb2c2d6"
+    },
+    {
+        "type": "function",
+        "name": "safeTransferFrom",
+        "inputs": [
+            {
+                "name": "from",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "to",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "id",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xf242432a"
+    },
+    {
+        "type": "function",
+        "name": "setApprovalForAll",
+        "inputs": [
+            {
+                "name": "operator",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "approved",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xa22cb465"
+    },
+    {
+        "type": "function",
+        "name": "setContractURI",
+        "inputs": [
+            {
+                "name": "_contractURI",
+                "type": "string",
+                "internalType": "string"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x938e3d7b"
+    },
+    {
+        "type": "function",
+        "name": "setController",
+        "inputs": [
+            {
+                "name": "newController",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x92eefe9b"
+    },
+    {
+        "type": "function",
+        "name": "setPaymentToken",
+        "inputs": [
+            {
+                "name": "newPaymentToken",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x6a326ab1"
+    },
+    {
+        "type": "function",
+        "name": "setPoolBasePrice",
+        "inputs": [
+            {
+                "name": "newBasePrice",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x78cf2e84"
+    },
+    {
+        "type": "function",
+        "name": "setPoolBurnable",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "burnable",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x2365c859"
+    },
+    {
+        "type": "function",
+        "name": "setPoolController",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "newController",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xdc55d0b2"
+    },
+    {
+        "type": "function",
+        "name": "setPoolTransferable",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "transferable",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xf3dc0a85"
+    },
+    {
+        "type": "function",
+        "name": "setURI",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "poolURI",
+                "type": "string",
+                "internalType": "string"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x862440e2"
+    },
+    {
+        "type": "function",
+        "name": "terminusController",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x366e59e3"
+    },
+    {
+        "type": "function",
+        "name": "terminusPoolCapacity",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x5dc8bdf8"
+    },
+    {
+        "type": "function",
+        "name": "terminusPoolController",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xd0c402e5"
+    },
+    {
+        "type": "function",
+        "name": "terminusPoolSupply",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xa44cfc82"
+    },
+    {
+        "type": "function",
+        "name": "totalPools",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0xab3c7e52"
+    },
+    {
+        "type": "function",
+        "name": "uri",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "string",
+                "internalType": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x0e89341c"
+    },
+    {
+        "type": "function",
+        "name": "withdrawPayments",
+        "inputs": [
+            {
+                "name": "toAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x0e7afec5"
+    },
+    {
+        "type": "function",
+        "name": "batchMintForMultipleUsers",
+        "inputs": [
+            {
+                "name": "owners",
+                "type": "address[]",
+                "internalType": "address[]"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolIds",
+                "type": "uint256[][]",
+                "internalType": "uint256[][]"
+            },
+            {
+                "name": "amounts",
+                "type": "uint256[][]",
+                "internalType": "uint256[][]"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x0390e4c4"
+    },
+    {
+        "type": "function",
+        "name": "createTerminusPool",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "stashInPermission",
+                "type": "uint8",
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "stashOutPermission",
+                "type": "uint8",
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "canStashIn",
+                "type": "bool",
+                "internalType": "bool"
+            },
+            {
+                "name": "canStashOut",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x7fb4f596"
+    },
+    {
+        "type": "function",
+        "name": "getTerminusPoolConfiguration",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "terminusPoolConfiguration",
+                "type": "tuple",
+                "internalType": "struct LibTerminusStash.TerminusPoolConfiguration",
+                "components": [
+                    {
+                        "name": "enabled",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "canStashIn",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "canStashOut",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "stashInPermission",
+                        "type": "uint8",
+                        "internalType": "enum IPermissionProvider.Permission"
+                    },
+                    {
+                        "name": "stashOutPermission",
+                        "type": "uint8",
+                        "internalType": "enum IPermissionProvider.Permission"
+                    }
+                ]
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x24398cf4"
+    },
+    {
+        "type": "function",
+        "name": "stashInTerminusPoolGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x2b1568fc"
+    },
+    {
+        "type": "function",
+        "name": "stashInTerminusPoolWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x2409c2da"
+    },
+    {
+        "type": "function",
+        "name": "stashOutTerminusPoolGenerateMessageHash",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "internalType": "bytes32"
+            }
+        ],
+        "stateMutability": "view",
+        "selector": "0x183a18d7"
+    },
+    {
+        "type": "function",
+        "name": "stashOutTerminusPoolWithSignature",
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "bundleId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "blockDeadline",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x8cac5aa4"
+    },
+    {
+        "type": "function",
+        "name": "toggleEnableTerminusPool",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x7f06dc14"
+    },
+    {
+        "type": "function",
+        "name": "updateTerminusPool",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "internalType": "uint256"
+            },
+            {
+                "name": "stashInPermission",
+                "type": "uint8",
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "stashOutPermission",
+                "type": "uint8",
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "canStashIn",
+                "type": "bool",
+                "internalType": "bool"
+            },
+            {
+                "name": "canStashOut",
+                "type": "bool",
+                "internalType": "bool"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x843bf4c5"
+    },
+    {
+        "type": "function",
+        "name": "burnUNIM",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xc02fc2b2"
+    },
+    {
+        "type": "function",
+        "name": "withdrawRBW",
+        "inputs": [
+            {
+                "name": "receiver",
+                "type": "address",
+                "internalType": "address payable"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0xf66bc7d2"
+    },
+    {
+        "type": "function",
+        "name": "withdrawUNIM",
+        "inputs": [
+            {
+                "name": "receiver",
+                "type": "address",
+                "internalType": "address payable"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x9b28a654"
+    },
+    {
+        "type": "function",
+        "name": "withdrawWETH",
+        "inputs": [
+            {
+                "name": "receiver",
+                "type": "address",
+                "internalType": "address payable"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "selector": "0x93113b5c"
+    },
+    {
+        "type": "event",
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "name": "previousAdmin",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            },
+            {
+                "name": "newAdmin",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x7e644d79"
+    },
+    {
+        "type": "event",
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {
+                "name": "previousOwner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "newOwner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x8be0079c"
+    },
+    {
+        "type": "event",
+        "name": "AddedDarkMarksController",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x5085d732"
+    },
+    {
+        "type": "event",
+        "name": "ControllerBurnedDarkMarks",
+        "inputs": [
+            {
+                "name": "burner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xecf6fadd"
+    },
+    {
+        "type": "event",
+        "name": "ControllerMintedDarkMarks",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xbe51faae"
+    },
+    {
+        "type": "event",
+        "name": "RemovedDarkMarksController",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x3191c684"
+    },
+    {
+        "type": "event",
+        "name": "DiamondCut",
+        "inputs": [
+            {
+                "name": "_diamondCut",
+                "type": "tuple[]",
+                "indexed": false,
+                "internalType": "struct IDiamondCut.FacetCut[]",
+                "components": [
+                    {
+                        "name": "facetAddress",
+                        "type": "address",
+                        "internalType": "address"
+                    },
+                    {
+                        "name": "action",
+                        "type": "uint8",
+                        "internalType": "enum IDiamondCut.FacetCutAction"
+                    },
+                    {
+                        "name": "functionSelectors",
+                        "type": "bytes4[]",
+                        "internalType": "bytes4[]"
+                    }
+                ]
+            },
+            {
+                "name": "_init",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            },
+            {
+                "name": "_calldata",
+                "type": "bytes",
+                "indexed": false,
+                "internalType": "bytes"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x8faa7087"
+    },
+    {
+        "type": "event",
+        "name": "GasReturnedToUser",
+        "inputs": [
+            {
+                "name": "amountReturned",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "txPrice",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "gasSpent",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "success",
+                "type": "bool",
+                "indexed": true,
+                "internalType": "bool"
+            },
+            {
+                "name": "transactionType",
+                "type": "string",
+                "indexed": true,
+                "internalType": "string"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x6bbde817"
+    },
+    {
+        "type": "event",
+        "name": "GasReturnerInsufficientBalance",
+        "inputs": [
+            {
+                "name": "txPrice",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "gasSpent",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "transactionType",
+                "type": "string",
+                "indexed": true,
+                "internalType": "string"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xc4b5eea2"
+    },
+    {
+        "type": "event",
+        "name": "GasReturnerMaxGasReturnedPerTransactionChanged",
+        "inputs": [
+            {
+                "name": "oldMaxGasReturnedPerTransaction",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "newMaxGasReturnedPerTransaction",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "admin",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xa72c9035"
+    },
+    {
+        "type": "event",
+        "name": "ControlTransferred",
+        "inputs": [
+            {
+                "name": "previousController",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "newController",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xa06677f7"
+    },
+    {
+        "type": "event",
+        "name": "PoolControlTransferred",
+        "inputs": [
+            {
+                "name": "poolID",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "previousController",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "newController",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xbb8e9c3c"
+    },
+    {
+        "type": "event",
+        "name": "TerminusPoolCreated",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "canStashIn",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            },
+            {
+                "name": "canStashOut",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            },
+            {
+                "name": "stashInPermission",
+                "type": "uint8",
+                "indexed": false,
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "stashOutPermission",
+                "type": "uint8",
+                "indexed": false,
+                "internalType": "enum IPermissionProvider.Permission"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x46d8671e"
+    },
+    {
+        "type": "event",
+        "name": "TerminusPoolStashedIn",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x7fc97635"
+    },
+    {
+        "type": "event",
+        "name": "TerminusPoolStashedOut",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x4ee720f3"
+    },
+    {
+        "type": "event",
+        "name": "TerminusPoolToggled",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "enabled",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xe8998358"
+    },
+    {
+        "type": "event",
+        "name": "TerminusPoolUpdated",
+        "inputs": [
+            {
+                "name": "terminusAddress",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "canStashIn",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            },
+            {
+                "name": "canStashOut",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            },
+            {
+                "name": "stashInPermission",
+                "type": "uint8",
+                "indexed": false,
+                "internalType": "enum IPermissionProvider.Permission"
+            },
+            {
+                "name": "stashOutPermission",
+                "type": "uint8",
+                "indexed": false,
+                "internalType": "enum IPermissionProvider.Permission"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x3429126f"
+    },
+    {
+        "type": "event",
+        "name": "KeystoneUnlocked",
+        "inputs": [
+            {
+                "name": "playerWallet",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x721ecfe3"
+    },
+    {
+        "type": "event",
+        "name": "KeystoneUnlockedV2",
+        "inputs": [
+            {
+                "name": "playerWallet",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "unlocker",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xcaa72360"
+    },
+    {
+        "type": "event",
+        "name": "LootBoxStashed",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x8d59e132"
+    },
+    {
+        "type": "event",
+        "name": "LootBoxStashedV2",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "roundTripId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "poolId",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "lootboxStasher",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xa0a0cfb6"
+    },
+    {
+        "type": "event",
+        "name": "SetKeyStonePoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x91ce6a61"
+    },
+    {
+        "type": "event",
+        "name": "SetLootboxPoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x800935e5"
+    },
+    {
+        "type": "event",
+        "name": "UnsetKeyStonePoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x0a74efdf"
+    },
+    {
+        "type": "event",
+        "name": "UnsetLootboxPoolIds",
+        "inputs": [
+            {
+                "name": "poolIds",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x2fb92f87"
+    },
+    {
+        "type": "event",
+        "name": "AddedUNIMController",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xe20d9058"
+    },
+    {
+        "type": "event",
+        "name": "ControllerBurnedUNIM",
+        "inputs": [
+            {
+                "name": "burner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xb79e5f51"
+    },
+    {
+        "type": "event",
+        "name": "ControllerMintedUNIM",
+        "inputs": [
+            {
+                "name": "minter",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "user",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x3f2259b0"
+    },
+    {
+        "type": "event",
+        "name": "RemovedUNIMController",
+        "inputs": [
+            {
+                "name": "controller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xcc7a496a"
+    },
+    {
+        "type": "event",
+        "name": "Stashed",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xb79aa84d"
+    },
+    {
+        "type": "event",
+        "name": "StashedMultiple",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "tokenAddresses",
+                "type": "address[]",
+                "indexed": false,
+                "internalType": "address[]"
+            },
+            {
+                "name": "tokenAmounts",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xde8810e3"
+    },
+    {
+        "type": "event",
+        "name": "StashedMultipleV2",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "tokenAddresses",
+                "type": "address[]",
+                "indexed": false,
+                "internalType": "address[]"
+            },
+            {
+                "name": "tokenAmounts",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xedfe8f1c"
+    },
+    {
+        "type": "event",
+        "name": "StashedV2",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xa94659be"
+    },
+    {
+        "type": "event",
+        "name": "Unstashed",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xac84dba9"
+    },
+    {
+        "type": "event",
+        "name": "UnstashedMultiple",
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "tokenAddresses",
+                "type": "address[]",
+                "indexed": false,
+                "internalType": "address[]"
+            },
+            {
+                "name": "tokenAmounts",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xe3ba13b3"
+    },
+    {
+        "type": "event",
+        "name": "UnstashedMultipleV2",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "tokenAddresses",
+                "type": "address[]",
+                "indexed": false,
+                "internalType": "address[]"
+            },
+            {
+                "name": "tokenAmounts",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xcd4559ff"
+    },
+    {
+        "type": "event",
+        "name": "UnstashedV2",
+        "inputs": [
+            {
+                "name": "caller",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "token",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "requestId",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "owner",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x961b6b26"
+    },
+    {
+        "type": "event",
+        "name": "ApprovalForAll",
+        "inputs": [
+            {
+                "name": "account",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "operator",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "approved",
+                "type": "bool",
+                "indexed": false,
+                "internalType": "bool"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x17307eab"
+    },
+    {
+        "type": "event",
+        "name": "PoolMintBatch",
+        "inputs": [
+            {
+                "name": "id",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            },
+            {
+                "name": "operator",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "from",
+                "type": "address",
+                "indexed": false,
+                "internalType": "address"
+            },
+            {
+                "name": "toAddresses",
+                "type": "address[]",
+                "indexed": false,
+                "internalType": "address[]"
+            },
+            {
+                "name": "amounts",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xba627779"
+    },
+    {
+        "type": "event",
+        "name": "TransferBatch",
+        "inputs": [
+            {
+                "name": "operator",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "from",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "to",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "ids",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            },
+            {
+                "name": "values",
+                "type": "uint256[]",
+                "indexed": false,
+                "internalType": "uint256[]"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x4a39dc06"
+    },
+    {
+        "type": "event",
+        "name": "TransferSingle",
+        "inputs": [
+            {
+                "name": "operator",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "from",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "to",
+                "type": "address",
+                "indexed": true,
+                "internalType": "address"
+            },
+            {
+                "name": "id",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            },
+            {
+                "name": "value",
+                "type": "uint256",
+                "indexed": false,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0xc3d58168"
+    },
+    {
+        "type": "event",
+        "name": "URI",
+        "inputs": [
+            {
+                "name": "value",
+                "type": "string",
+                "indexed": false,
+                "internalType": "string"
+            },
+            {
+                "name": "id",
+                "type": "uint256",
+                "indexed": true,
+                "internalType": "uint256"
+            }
+        ],
+        "anonymous": false,
+        "selector": "0x6bb7ff70"
+    }
+]
