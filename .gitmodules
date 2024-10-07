@@ -4,3 +4,6 @@
 [submodule "lib/cu-osc-common"]
 	path = lib/cu-osc-common
 	url = https://github.com/Laguna-Games/cu-osc-common
+[submodule "lib/dao"]
+	path = lib/dao
+	url = https://github.com/bugout-dev/dao
